@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>.:: Secure GBan ::.</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+  <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="./img/Logo.png" alt="Logo" height="30px"></a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto bg-primary">
+          <li class="nav-item">
+          <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Username">
+                </div>
+          
+          </li>
+          <li class="nav-item">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Password">
+              </div>
+            
+          </li>
+          <li class="nav-item">
+              <button class="btn btn-primary bg-primary">Login</button>           
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME SECTION -->
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 d-none d-lg-block">
+              <h1 class="display-4">Build <strong>social profiles</strong></h1>
+              <div class="d-flex flex-row">
+             <div class="p-8 align-self-end">
+              <img src="./img/BannerImage.png" alt="BannerImage">
+                </div>
+              </div>
+
+
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center bg-primary card-form">
+                <div class="card-body">
+                  <div>
+                  <h3>CREATE A NEW ACCOUNT</h3>
+                  <p>It's safe quick and easy</p>
+                  <form>
+                    <div class="form-group">
+                      <input type="text" class="form-control form-control-lg" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control form-control-lg" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-lg" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="form-control form-control-lg" placeholder="Confirm Password">
+                    </div>
+                    <input type="submit" class="btn btn-outline-light btn-block">
+                  </form>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<!-- MAIN FOOTER -->
+  <footer id="main-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <div class="py-4">
+            <p>&copy; 2019 Berom DataBank Inc</p>
+            <button class="btn btn-primary bg-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CONTACT MODAL -->
+  <div class="modal fade text-dark" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="contactModalTitle">Contact Us</h5>
+          <button class="close" data-dismiss="modal"><span>&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="name">Message</label>
+              <textarea class="form-control"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary btn-block bg-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

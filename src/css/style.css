@@ -1,0 +1,27 @@
+body {
+  background: rgb(255, 255, 255);
+  color: #61001D; }
+
+.navbar {
+  border-bottom: 2px solid #05D24D;
+  border-top:  6px solid #05D24D;
+  opacity: 0.8; }
+
+#home-section {
+  background: url("../img/circles.png") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.8; }
+#main-footer{
+  border-top: 10px solid #05D24D;
+}
